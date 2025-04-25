@@ -42,9 +42,10 @@ Ahora ejecuta este comando para iniciar el contenedor, que mapeará los puertos 
 
 Deberías ver un código identificador del contenedor si todo se ha creado correctamente.
 
-![captura de pantalla](capturas/2-dockerrun.png)
+![captura de pantalla](capturas/2-dockerrunpng.png)
 
-Listo, nuestro contenedor ya está preparado. Ahora vamos a ver como acceder y utilizarlo.
+Listo, nuestro contenedor ya está preparado. 
+Ahora vamos a ver como acceder y utilizarlo.
 
 
 
@@ -58,6 +59,7 @@ Cómo acceder en modo CLI con SSH
 Para acceder mediante ssh simplemente ejecuta el siguiente comando en tu terminal, donde la ip deberás cambiarla por la de tu máquina Docker.
 
 `ssh root@<IP> -p 2222 `
+
 Si todo ha funcionado deberías ver algo así en tu terminal:
 
 ![captura de pantalla](capturas/3-ssh.png)
@@ -70,7 +72,7 @@ En caso de utilizar una máquina en modo NAT deberás indicar la dirección loca
 
 No es recomendado utilizar el usuario root para usar el entorno, una vez tengas tu propio contenedor te aconsejo ENCARECIDAMENTE que crees tu nuevo usuario normal.
 
-Ya estás listo para utilizar tu contenedor en modo terminal
+Ya estás listo para utilizar tu contenedor en modo terminal.
 
 
 
@@ -98,7 +100,7 @@ Para comprobar que python se ha instalado correctamente invoca el comando “pyt
 
 ![captura de pantalla](capturas/7-python.png)
 
-Ahora deberías de poder acceder a VSC, como he mencionado anteriormente te aconsejo crear un usuario y no utilizar root, pero para para comprobar que todo funciona correctamente como root utiliza el comando:
+Ahora deberías de poder acceder a VSC, como he mencionado anteriormente te aconsejo crear un usuario y no utilizar root, pero para comprobar que todo funciona correctamente como root utiliza el comando:
 
 `code --no-sandbox --user-data-dir=/root/.vscode-root`
 
