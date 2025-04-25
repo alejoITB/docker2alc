@@ -1,6 +1,6 @@
 ####################################
 
-Introducción
+           Introducción
 
 ####################################
 
@@ -17,7 +17,7 @@ Se instalará:
 
 ####################################
 
-Instrucciones paso a paso
+     Instrucciones paso a paso
 
 ####################################
 
@@ -48,7 +48,7 @@ Listo, nuestro contenedor ya está preparado. Ahora vamos a ver como acceder y u
 
 ####################################
 
-Cómo acceder en modo CLI
+    Cómo acceder en modo CLI
 
 ####################################
 
@@ -69,7 +69,7 @@ Ya estás listo para utilizar tu contenedor en modo terminal
 
 ####################################
 
-Cómo acceder en modo gráfico
+    Cómo acceder en modo gráfico
 
 ####################################
 
@@ -115,5 +115,6 @@ Una vez instalado, ya estás listo para trabajar con VSC y Python.
 
 
 Happy coding!
+
 
 
