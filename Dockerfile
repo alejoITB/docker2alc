@@ -1,5 +1,6 @@
 ################
 #Dockerfile2alc
+#Por Alejandro Liebana ASIX2C
 ################
 
 # Usamos Ubuntu 24.04 como base

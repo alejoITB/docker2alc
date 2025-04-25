@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Por Alejandro Liebana ASIX2C
+
 # Iniciar DBus correctamente (requerido por Xfce)
 dbus-daemon --system --fork
 
