@@ -3,7 +3,7 @@
 # Iniciar DBus correctamente (requerido por Xfce)
 dbus-daemon --system --fork
 
-# Iniciar SSH
+# Iniciar servicio SSH
 service ssh start
 
 # Iniciar VNC server sin autenticación
