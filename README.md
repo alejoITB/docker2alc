@@ -1,5 +1,7 @@
 ####################################
+
 Introducción
+
 ####################################
 
 Con este contenedor tendrás un entorno de desarrollo gráfico en un contenedor Ubuntu 24.04 al que podrás acceder mediante SSH o VNC.
@@ -14,7 +16,9 @@ Se instalará:
 
 
 ####################################
+
 Instrucciones paso a paso
+
 ####################################
 
 En tu máquina con Docker, procede a crear un directorio con el que trabajaremos.
@@ -43,7 +47,9 @@ Deberías ver un código identificador del contenedor si todo se ha creado corre
 Listo, nuestro contenedor ya está preparado. Ahora vamos a ver como acceder y utilizarlo.
 
 ####################################
+
 Cómo acceder en modo CLI
+
 ####################################
 
 Para acceder mediante ssh simplemente ejecuta el siguiente comando en tu terminal, donde la ip deberás cambiarla por la de tu máquina Docker.
@@ -62,7 +68,9 @@ Ya estás listo para utilizar tu contenedor en modo terminal
 
 
 ####################################
+
 Cómo acceder en modo gráfico
+
 ####################################
 
 Descarga una herramienta de visionado VNC para tu sistema operativo.
@@ -107,4 +115,5 @@ Una vez instalado, ya estás listo para trabajar con VSC y Python.
 
 
 Happy coding!
+
 
